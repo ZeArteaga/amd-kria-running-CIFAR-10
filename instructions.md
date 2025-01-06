@@ -1,10 +1,11 @@
 # Instructions
+CHANGED TO VITIS-AI 2.5 BECAUSE XMODEL WAS CRASHING WHEN USING THE PYNQ OVERLAY
 
-1. Use docker to get this container https://hub.docker.com/r/xilinx/vitis-ai-tensorflow2-cpu 
+1. Use docker to get this container ~~https://hub.docker.com/r/xilinx/vitis-ai-tensorflow2-cpu~~ https://hub.docker.com/r/xilinx/vitis-ai/tags?name=2.5
 
 should be:
 ```bash
-docker pull xilinx/vitis-ai-tensorflow2-cpu
+docker pull xilinx/vitis-ai:2.5
 ```
 
 
@@ -20,9 +21,8 @@ git clone https://github.com/Xilinx/Vitis-AI
 4. Run:
 ```bash
 cd Vitis-AI
-./docker_run.sh xilinx/vitis-ai-tensorflow2-cpu
+./docker_run.sh xilinx/vitis-ai:2.5
 ```
-(don't forget the 2, that's important)
 
 
 5. once inside start a jupyter notebook:
