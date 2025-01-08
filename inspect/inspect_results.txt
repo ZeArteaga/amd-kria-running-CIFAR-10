@@ -1,155 +1,157 @@
 [MODEL INFO]:
 ________________________________________________________________________________________________________________________
-Model Name: model
+Model Name: model_3
 ________________________________________________________________________________________________________________________
 ID          Name                    Type                    Device      Notes                                           
 ========================================================================================================================
-0/67        input_41                InputLayer              INPUT                                                       
+0/68        input_41                InputLayer              INPUT                                                       
 ------------------------------------------------------------------------------------------------------------------------
-1/67        conv2d                  Conv2D<relu>            DPU                                                         
+1/68        conv2d_60               Conv2D<linear>          DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-2/67        batch_normalization     BatchNormalization      DPU                                                         
+2/68        batch_normalization_60  BatchNormalization      DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-3/67        re_lu                   ReLU                    DPU                                                         
+3/68        re_lu_51                ReLU                    DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-4/67        conv2d_1                Conv2D<linear>          DPU                                                         
+4/68        conv2d_61               Conv2D<linear>          DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-5/67        batch_normalization_1   BatchNormalization      DPU                                                         
+5/68        batch_normalization_61  BatchNormalization      DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-6/67        re_lu_1                 ReLU                    DPU                                                         
+6/68        re_lu_52                ReLU                    DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-7/67        conv2d_2                Conv2D<linear>          DPU                                                         
+7/68        conv2d_62               Conv2D<linear>          DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-8/67        batch_normalization_2   BatchNormalization      DPU                                                         
+8/68        batch_normalization_62  BatchNormalization      DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-9/67        add                     Add                     DPU                                                         
+9/68        add_24                  Add                     DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-10/67       re_lu_2                 ReLU                    DPU                                                         
+10/68       re_lu_53                ReLU                    DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-11/67       conv2d_3                Conv2D<linear>          DPU                                                         
+11/68       conv2d_63               Conv2D<linear>          DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-12/67       batch_normalization_3   BatchNormalization      DPU                                                         
+12/68       batch_normalization_63  BatchNormalization      DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-13/67       re_lu_3                 ReLU                    DPU                                                         
+13/68       re_lu_54                ReLU                    DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-14/67       conv2d_4                Conv2D<linear>          DPU                                                         
+14/68       conv2d_64               Conv2D<linear>          DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-15/67       batch_normalization_4   BatchNormalization      DPU                                                         
+15/68       batch_normalization_64  BatchNormalization      DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-16/67       add_1                   Add                     DPU                                                         
+16/68       add_25                  Add                     DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-17/67       re_lu_4                 ReLU                    DPU                                                         
+17/68       re_lu_55                ReLU                    DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-18/67       conv2d_6                Conv2D<linear>          DPU                                                         
+18/68       conv2d_66               Conv2D<linear>          DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-19/67       batch_normalization_6   BatchNormalization      DPU                                                         
+19/68       batch_normalization_66  BatchNormalization      DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-20/67       re_lu_5                 ReLU                    DPU                                                         
+20/68       re_lu_56                ReLU                    DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-21/67       conv2d_7                Conv2D<linear>          DPU                                                         
+21/68       conv2d_67               Conv2D<linear>          DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-22/67       conv2d_5                Conv2D<linear>          DPU                                                         
+22/68       conv2d_65               Conv2D<linear>          DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-23/67       batch_normalization_7   BatchNormalization      DPU                                                         
+23/68       batch_normalization_67  BatchNormalization      DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-24/67       batch_normalization_5   BatchNormalization      DPU                                                         
+24/68       batch_normalization_65  BatchNormalization      DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-25/67       add_2                   Add                     DPU                                                         
+25/68       add_26                  Add                     DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-26/67       re_lu_6                 ReLU                    DPU                                                         
+26/68       re_lu_57                ReLU                    DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-27/67       conv2d_8                Conv2D<linear>          DPU                                                         
+27/68       conv2d_68               Conv2D<linear>          DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-28/67       batch_normalization_8   BatchNormalization      DPU                                                         
+28/68       batch_normalization_68  BatchNormalization      DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-29/67       re_lu_7                 ReLU                    DPU                                                         
+29/68       re_lu_58                ReLU                    DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-30/67       conv2d_9                Conv2D<linear>          DPU                                                         
+30/68       conv2d_69               Conv2D<linear>          DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-31/67       batch_normalization_9   BatchNormalization      DPU                                                         
+31/68       batch_normalization_69  BatchNormalization      DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-32/67       add_3                   Add                     DPU                                                         
+32/68       add_27                  Add                     DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-33/67       re_lu_8                 ReLU                    DPU                                                         
+33/68       re_lu_59                ReLU                    DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-34/67       conv2d_11               Conv2D<linear>          DPU                                                         
+34/68       conv2d_71               Conv2D<linear>          DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-35/67       batch_normalization_11  BatchNormalization      DPU                                                         
+35/68       batch_normalization_71  BatchNormalization      DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-36/67       re_lu_9                 ReLU                    DPU                                                         
+36/68       re_lu_60                ReLU                    DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-37/67       conv2d_12               Conv2D<linear>          DPU                                                         
+37/68       conv2d_72               Conv2D<linear>          DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-38/67       conv2d_10               Conv2D<linear>          DPU                                                         
+38/68       conv2d_70               Conv2D<linear>          DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-39/67       batch_normalization_12  BatchNormalization      DPU                                                         
+39/68       batch_normalization_72  BatchNormalization      DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-40/67       batch_normalization_10  BatchNormalization      DPU                                                         
+40/68       batch_normalization_70  BatchNormalization      DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-41/67       add_4                   Add                     DPU                                                         
+41/68       add_28                  Add                     DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-42/67       re_lu_10                ReLU                    DPU                                                         
+42/68       re_lu_61                ReLU                    DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-43/67       conv2d_13               Conv2D<linear>          DPU                                                         
+43/68       conv2d_73               Conv2D<linear>          DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-44/67       batch_normalization_13  BatchNormalization      DPU                                                         
+44/68       batch_normalization_73  BatchNormalization      DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-45/67       re_lu_11                ReLU                    DPU                                                         
+45/68       re_lu_62                ReLU                    DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-46/67       conv2d_14               Conv2D<linear>          DPU                                                         
+46/68       conv2d_74               Conv2D<linear>          DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-47/67       batch_normalization_14  BatchNormalization      DPU                                                         
+47/68       batch_normalization_74  BatchNormalization      DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-48/67       add_5                   Add                     DPU                                                         
+48/68       add_29                  Add                     DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-49/67       re_lu_12                ReLU                    DPU                                                         
+49/68       re_lu_63                ReLU                    DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-50/67       conv2d_16               Conv2D<linear>          DPU                                                         
+50/68       conv2d_76               Conv2D<linear>          DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-51/67       batch_normalization_16  BatchNormalization      DPU                                                         
+51/68       batch_normalization_76  BatchNormalization      DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-52/67       re_lu_13                ReLU                    DPU                                                         
+52/68       re_lu_64                ReLU                    DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-53/67       conv2d_17               Conv2D<linear>          DPU                                                         
+53/68       conv2d_77               Conv2D<linear>          DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-54/67       conv2d_15               Conv2D<linear>          DPU                                                         
+54/68       conv2d_75               Conv2D<linear>          DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-55/67       batch_normalization_17  BatchNormalization      DPU                                                         
+55/68       batch_normalization_77  BatchNormalization      DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-56/67       batch_normalization_15  BatchNormalization      DPU                                                         
+56/68       batch_normalization_75  BatchNormalization      DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-57/67       add_6                   Add                     DPU                                                         
+57/68       add_30                  Add                     DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-58/67       re_lu_14                ReLU                    DPU                                                         
+58/68       re_lu_65                ReLU                    DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-59/67       conv2d_18               Conv2D<linear>          DPU                                                         
+59/68       conv2d_78               Conv2D<linear>          DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-60/67       batch_normalization_18  BatchNormalization      DPU                                                         
+60/68       batch_normalization_78  BatchNormalization      DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-61/67       re_lu_15                ReLU                    DPU                                                         
+61/68       re_lu_66                ReLU                    DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-62/67       conv2d_19               Conv2D<linear>          DPU                                                         
+62/68       conv2d_79               Conv2D<linear>          DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-63/67       batch_normalization_19  BatchNormalization      DPU                                                         
+63/68       batch_normalization_79  BatchNormalization      DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-64/67       add_7                   Add                     DPU                                                         
+64/68       add_31                  Add                     DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-65/67       re_lu_16                ReLU                    DPU                                                         
+65/68       re_lu_67                ReLU                    DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-66/67       global_average_pooling2dGlobalAveragePooling2D  DPU                                                         
+66/68       average_pooling2d_3     AveragePooling2D        DPU                                                         
 ------------------------------------------------------------------------------------------------------------------------
-67/67       dense                   Dense<softmax>          DPU+CPU     Seperate layer activation `softmax`; `softmax`  
+67/68       flatten_3               Flatten                 DPU                                                         
+------------------------------------------------------------------------------------------------------------------------
+68/68       dense_3                 Dense<softmax>          DPU+CPU     Seperate layer activation `softmax`; `softmax`  
                                                                         is not supported by target                      
 ------------------------------------------------------------------------------------------------------------------------
 ========================================================================================================================
 [SUMMARY INFO]:
 - [Target Name]: DPUCZDX8G_ISA1_B4096
-- [Total Layers]: 68
-- [Layer Types]: InputLayer(1) Conv2D<relu>(1) BatchNormalization(20) ReLU(17) Conv2D<linear>(19) Add(8) GlobalAveragePooling2D(1) Dense<softmax>(1) 
-- [Partition Results]: INPUT(1) DPU(66) DPU+CPU(1) 
+- [Total Layers]: 69
+- [Layer Types]: InputLayer(1) Conv2D<linear>(20) BatchNormalization(20) ReLU(17) Add(8) AveragePooling2D(1) Flatten(1) Dense<softmax>(1) 
+- [Partition Results]: INPUT(1) DPU(67) DPU+CPU(1) 
 ========================================================================================================================
 [NOTES INFO]:
-- [67/67] Layer dense (Type:Dense<softmax>, Device:DPU+CPU):
+- [68/68] Layer dense_3 (Type:Dense<softmax>, Device:DPU+CPU):
     * Seperate layer activation `softmax`
     * `softmax` is not supported by target
 ========================================================================================================================
@@ -170,13 +172,13 @@ Layer Config:
  'sparse': False}
 ________________________________________________________________________________________________________________________
 Layer ID: 1
-Layer Name: conv2d
+Layer Name: conv2d_60
 Layer Type: Conv2D
 Device: DPU
 Notes: 
-    1. Seperate layer activation `relu`.
+    None
 Layer Config:
-{'activation': 'relu',
+{'activation': 'linear',
  'activity_regularizer': None,
  'bias_constraint': None,
  'bias_initializer': {'class_name': 'Zeros', 'config': {}},
@@ -190,18 +192,18 @@ Layer Config:
  'kernel_initializer': {'class_name': 'HeNormal', 'config': {'seed': None}},
  'kernel_regularizer': None,
  'kernel_size': (3, 3),
- 'name': 'conv2d',
+ 'name': 'conv2d_60',
  'padding': 'same',
  'strides': (1, 1),
  'trainable': True,
  'use_bias': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 2
-Layer Name: batch_normalization
+Layer Name: batch_normalization_60
 Layer Type: BatchNormalization
 Device: DPU
 Notes: 
-    1. Converted to DepthwiseConv2D
+    1. Folded into previous layer conv2d_60.
 Layer Config:
 {'axis': ListWrapper([3]),
  'beta_constraint': None,
@@ -216,12 +218,12 @@ Layer Config:
  'momentum': 0.99,
  'moving_mean_initializer': {'class_name': 'Zeros', 'config': {}},
  'moving_variance_initializer': {'class_name': 'Ones', 'config': {}},
- 'name': 'batch_normalization',
+ 'name': 'batch_normalization_60',
  'scale': True,
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 3
-Layer Name: re_lu
+Layer Name: re_lu_51
 Layer Type: ReLU
 Device: DPU
 Notes: 
@@ -229,13 +231,13 @@ Notes:
 Layer Config:
 {'dtype': 'float32',
  'max_value': None,
- 'name': 're_lu',
+ 'name': 're_lu_51',
  'negative_slope': array(0., dtype=float32),
  'threshold': array(0., dtype=float32),
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 4
-Layer Name: conv2d_1
+Layer Name: conv2d_61
 Layer Type: Conv2D
 Device: DPU
 Notes: 
@@ -255,18 +257,18 @@ Layer Config:
  'kernel_initializer': {'class_name': 'HeNormal', 'config': {'seed': None}},
  'kernel_regularizer': None,
  'kernel_size': (3, 3),
- 'name': 'conv2d_1',
+ 'name': 'conv2d_61',
  'padding': 'same',
  'strides': (1, 1),
  'trainable': True,
  'use_bias': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 5
-Layer Name: batch_normalization_1
+Layer Name: batch_normalization_61
 Layer Type: BatchNormalization
 Device: DPU
 Notes: 
-    1. Folded into previous layer conv2d_1.
+    1. Folded into previous layer conv2d_61.
 Layer Config:
 {'axis': ListWrapper([3]),
  'beta_constraint': None,
@@ -281,12 +283,12 @@ Layer Config:
  'momentum': 0.99,
  'moving_mean_initializer': {'class_name': 'Zeros', 'config': {}},
  'moving_variance_initializer': {'class_name': 'Ones', 'config': {}},
- 'name': 'batch_normalization_1',
+ 'name': 'batch_normalization_61',
  'scale': True,
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 6
-Layer Name: re_lu_1
+Layer Name: re_lu_52
 Layer Type: ReLU
 Device: DPU
 Notes: 
@@ -294,13 +296,13 @@ Notes:
 Layer Config:
 {'dtype': 'float32',
  'max_value': None,
- 'name': 're_lu_1',
+ 'name': 're_lu_52',
  'negative_slope': array(0., dtype=float32),
  'threshold': array(0., dtype=float32),
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 7
-Layer Name: conv2d_2
+Layer Name: conv2d_62
 Layer Type: Conv2D
 Device: DPU
 Notes: 
@@ -320,18 +322,18 @@ Layer Config:
  'kernel_initializer': {'class_name': 'HeNormal', 'config': {'seed': None}},
  'kernel_regularizer': None,
  'kernel_size': (3, 3),
- 'name': 'conv2d_2',
+ 'name': 'conv2d_62',
  'padding': 'same',
  'strides': (1, 1),
  'trainable': True,
  'use_bias': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 8
-Layer Name: batch_normalization_2
+Layer Name: batch_normalization_62
 Layer Type: BatchNormalization
 Device: DPU
 Notes: 
-    1. Folded into previous layer conv2d_2.
+    1. Folded into previous layer conv2d_62.
 Layer Config:
 {'axis': ListWrapper([3]),
  'beta_constraint': None,
@@ -346,21 +348,21 @@ Layer Config:
  'momentum': 0.99,
  'moving_mean_initializer': {'class_name': 'Zeros', 'config': {}},
  'moving_variance_initializer': {'class_name': 'Ones', 'config': {}},
- 'name': 'batch_normalization_2',
+ 'name': 'batch_normalization_62',
  'scale': True,
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 9
-Layer Name: add
+Layer Name: add_24
 Layer Type: Add
 Device: DPU
 Notes: 
     None
 Layer Config:
-{'dtype': 'float32', 'name': 'add', 'trainable': True}
+{'dtype': 'float32', 'name': 'add_24', 'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 10
-Layer Name: re_lu_2
+Layer Name: re_lu_53
 Layer Type: ReLU
 Device: DPU
 Notes: 
@@ -368,13 +370,13 @@ Notes:
 Layer Config:
 {'dtype': 'float32',
  'max_value': None,
- 'name': 're_lu_2',
+ 'name': 're_lu_53',
  'negative_slope': array(0., dtype=float32),
  'threshold': array(0., dtype=float32),
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 11
-Layer Name: conv2d_3
+Layer Name: conv2d_63
 Layer Type: Conv2D
 Device: DPU
 Notes: 
@@ -394,18 +396,18 @@ Layer Config:
  'kernel_initializer': {'class_name': 'HeNormal', 'config': {'seed': None}},
  'kernel_regularizer': None,
  'kernel_size': (3, 3),
- 'name': 'conv2d_3',
+ 'name': 'conv2d_63',
  'padding': 'same',
  'strides': (1, 1),
  'trainable': True,
  'use_bias': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 12
-Layer Name: batch_normalization_3
+Layer Name: batch_normalization_63
 Layer Type: BatchNormalization
 Device: DPU
 Notes: 
-    1. Folded into previous layer conv2d_3.
+    1. Folded into previous layer conv2d_63.
 Layer Config:
 {'axis': ListWrapper([3]),
  'beta_constraint': None,
@@ -420,12 +422,12 @@ Layer Config:
  'momentum': 0.99,
  'moving_mean_initializer': {'class_name': 'Zeros', 'config': {}},
  'moving_variance_initializer': {'class_name': 'Ones', 'config': {}},
- 'name': 'batch_normalization_3',
+ 'name': 'batch_normalization_63',
  'scale': True,
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 13
-Layer Name: re_lu_3
+Layer Name: re_lu_54
 Layer Type: ReLU
 Device: DPU
 Notes: 
@@ -433,13 +435,13 @@ Notes:
 Layer Config:
 {'dtype': 'float32',
  'max_value': None,
- 'name': 're_lu_3',
+ 'name': 're_lu_54',
  'negative_slope': array(0., dtype=float32),
  'threshold': array(0., dtype=float32),
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 14
-Layer Name: conv2d_4
+Layer Name: conv2d_64
 Layer Type: Conv2D
 Device: DPU
 Notes: 
@@ -459,18 +461,18 @@ Layer Config:
  'kernel_initializer': {'class_name': 'HeNormal', 'config': {'seed': None}},
  'kernel_regularizer': None,
  'kernel_size': (3, 3),
- 'name': 'conv2d_4',
+ 'name': 'conv2d_64',
  'padding': 'same',
  'strides': (1, 1),
  'trainable': True,
  'use_bias': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 15
-Layer Name: batch_normalization_4
+Layer Name: batch_normalization_64
 Layer Type: BatchNormalization
 Device: DPU
 Notes: 
-    1. Folded into previous layer conv2d_4.
+    1. Folded into previous layer conv2d_64.
 Layer Config:
 {'axis': ListWrapper([3]),
  'beta_constraint': None,
@@ -485,21 +487,21 @@ Layer Config:
  'momentum': 0.99,
  'moving_mean_initializer': {'class_name': 'Zeros', 'config': {}},
  'moving_variance_initializer': {'class_name': 'Ones', 'config': {}},
- 'name': 'batch_normalization_4',
+ 'name': 'batch_normalization_64',
  'scale': True,
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 16
-Layer Name: add_1
+Layer Name: add_25
 Layer Type: Add
 Device: DPU
 Notes: 
     None
 Layer Config:
-{'dtype': 'float32', 'name': 'add_1', 'trainable': True}
+{'dtype': 'float32', 'name': 'add_25', 'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 17
-Layer Name: re_lu_4
+Layer Name: re_lu_55
 Layer Type: ReLU
 Device: DPU
 Notes: 
@@ -507,13 +509,13 @@ Notes:
 Layer Config:
 {'dtype': 'float32',
  'max_value': None,
- 'name': 're_lu_4',
+ 'name': 're_lu_55',
  'negative_slope': array(0., dtype=float32),
  'threshold': array(0., dtype=float32),
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 18
-Layer Name: conv2d_6
+Layer Name: conv2d_66
 Layer Type: Conv2D
 Device: DPU
 Notes: 
@@ -533,18 +535,18 @@ Layer Config:
  'kernel_initializer': {'class_name': 'HeNormal', 'config': {'seed': None}},
  'kernel_regularizer': None,
  'kernel_size': (3, 3),
- 'name': 'conv2d_6',
+ 'name': 'conv2d_66',
  'padding': 'same',
  'strides': (2, 2),
  'trainable': True,
  'use_bias': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 19
-Layer Name: batch_normalization_6
+Layer Name: batch_normalization_66
 Layer Type: BatchNormalization
 Device: DPU
 Notes: 
-    1. Folded into previous layer conv2d_6.
+    1. Folded into previous layer conv2d_66.
 Layer Config:
 {'axis': ListWrapper([3]),
  'beta_constraint': None,
@@ -559,12 +561,12 @@ Layer Config:
  'momentum': 0.99,
  'moving_mean_initializer': {'class_name': 'Zeros', 'config': {}},
  'moving_variance_initializer': {'class_name': 'Ones', 'config': {}},
- 'name': 'batch_normalization_6',
+ 'name': 'batch_normalization_66',
  'scale': True,
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 20
-Layer Name: re_lu_5
+Layer Name: re_lu_56
 Layer Type: ReLU
 Device: DPU
 Notes: 
@@ -572,13 +574,13 @@ Notes:
 Layer Config:
 {'dtype': 'float32',
  'max_value': None,
- 'name': 're_lu_5',
+ 'name': 're_lu_56',
  'negative_slope': array(0., dtype=float32),
  'threshold': array(0., dtype=float32),
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 21
-Layer Name: conv2d_7
+Layer Name: conv2d_67
 Layer Type: Conv2D
 Device: DPU
 Notes: 
@@ -598,14 +600,14 @@ Layer Config:
  'kernel_initializer': {'class_name': 'HeNormal', 'config': {'seed': None}},
  'kernel_regularizer': None,
  'kernel_size': (3, 3),
- 'name': 'conv2d_7',
+ 'name': 'conv2d_67',
  'padding': 'same',
  'strides': (1, 1),
  'trainable': True,
  'use_bias': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 22
-Layer Name: conv2d_5
+Layer Name: conv2d_65
 Layer Type: Conv2D
 Device: DPU
 Notes: 
@@ -625,18 +627,18 @@ Layer Config:
  'kernel_initializer': {'class_name': 'HeNormal', 'config': {'seed': None}},
  'kernel_regularizer': None,
  'kernel_size': (1, 1),
- 'name': 'conv2d_5',
+ 'name': 'conv2d_65',
  'padding': 'same',
  'strides': (2, 2),
  'trainable': True,
  'use_bias': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 23
-Layer Name: batch_normalization_7
+Layer Name: batch_normalization_67
 Layer Type: BatchNormalization
 Device: DPU
 Notes: 
-    1. Folded into previous layer conv2d_7.
+    1. Folded into previous layer conv2d_67.
 Layer Config:
 {'axis': ListWrapper([3]),
  'beta_constraint': None,
@@ -651,16 +653,16 @@ Layer Config:
  'momentum': 0.99,
  'moving_mean_initializer': {'class_name': 'Zeros', 'config': {}},
  'moving_variance_initializer': {'class_name': 'Ones', 'config': {}},
- 'name': 'batch_normalization_7',
+ 'name': 'batch_normalization_67',
  'scale': True,
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 24
-Layer Name: batch_normalization_5
+Layer Name: batch_normalization_65
 Layer Type: BatchNormalization
 Device: DPU
 Notes: 
-    1. Folded into previous layer conv2d_5.
+    1. Folded into previous layer conv2d_65.
 Layer Config:
 {'axis': ListWrapper([3]),
  'beta_constraint': None,
@@ -675,21 +677,21 @@ Layer Config:
  'momentum': 0.99,
  'moving_mean_initializer': {'class_name': 'Zeros', 'config': {}},
  'moving_variance_initializer': {'class_name': 'Ones', 'config': {}},
- 'name': 'batch_normalization_5',
+ 'name': 'batch_normalization_65',
  'scale': True,
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 25
-Layer Name: add_2
+Layer Name: add_26
 Layer Type: Add
 Device: DPU
 Notes: 
     None
 Layer Config:
-{'dtype': 'float32', 'name': 'add_2', 'trainable': True}
+{'dtype': 'float32', 'name': 'add_26', 'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 26
-Layer Name: re_lu_6
+Layer Name: re_lu_57
 Layer Type: ReLU
 Device: DPU
 Notes: 
@@ -697,13 +699,13 @@ Notes:
 Layer Config:
 {'dtype': 'float32',
  'max_value': None,
- 'name': 're_lu_6',
+ 'name': 're_lu_57',
  'negative_slope': array(0., dtype=float32),
  'threshold': array(0., dtype=float32),
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 27
-Layer Name: conv2d_8
+Layer Name: conv2d_68
 Layer Type: Conv2D
 Device: DPU
 Notes: 
@@ -723,18 +725,18 @@ Layer Config:
  'kernel_initializer': {'class_name': 'HeNormal', 'config': {'seed': None}},
  'kernel_regularizer': None,
  'kernel_size': (3, 3),
- 'name': 'conv2d_8',
+ 'name': 'conv2d_68',
  'padding': 'same',
  'strides': (1, 1),
  'trainable': True,
  'use_bias': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 28
-Layer Name: batch_normalization_8
+Layer Name: batch_normalization_68
 Layer Type: BatchNormalization
 Device: DPU
 Notes: 
-    1. Folded into previous layer conv2d_8.
+    1. Folded into previous layer conv2d_68.
 Layer Config:
 {'axis': ListWrapper([3]),
  'beta_constraint': None,
@@ -749,12 +751,12 @@ Layer Config:
  'momentum': 0.99,
  'moving_mean_initializer': {'class_name': 'Zeros', 'config': {}},
  'moving_variance_initializer': {'class_name': 'Ones', 'config': {}},
- 'name': 'batch_normalization_8',
+ 'name': 'batch_normalization_68',
  'scale': True,
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 29
-Layer Name: re_lu_7
+Layer Name: re_lu_58
 Layer Type: ReLU
 Device: DPU
 Notes: 
@@ -762,13 +764,13 @@ Notes:
 Layer Config:
 {'dtype': 'float32',
  'max_value': None,
- 'name': 're_lu_7',
+ 'name': 're_lu_58',
  'negative_slope': array(0., dtype=float32),
  'threshold': array(0., dtype=float32),
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 30
-Layer Name: conv2d_9
+Layer Name: conv2d_69
 Layer Type: Conv2D
 Device: DPU
 Notes: 
@@ -788,18 +790,18 @@ Layer Config:
  'kernel_initializer': {'class_name': 'HeNormal', 'config': {'seed': None}},
  'kernel_regularizer': None,
  'kernel_size': (3, 3),
- 'name': 'conv2d_9',
+ 'name': 'conv2d_69',
  'padding': 'same',
  'strides': (1, 1),
  'trainable': True,
  'use_bias': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 31
-Layer Name: batch_normalization_9
+Layer Name: batch_normalization_69
 Layer Type: BatchNormalization
 Device: DPU
 Notes: 
-    1. Folded into previous layer conv2d_9.
+    1. Folded into previous layer conv2d_69.
 Layer Config:
 {'axis': ListWrapper([3]),
  'beta_constraint': None,
@@ -814,21 +816,21 @@ Layer Config:
  'momentum': 0.99,
  'moving_mean_initializer': {'class_name': 'Zeros', 'config': {}},
  'moving_variance_initializer': {'class_name': 'Ones', 'config': {}},
- 'name': 'batch_normalization_9',
+ 'name': 'batch_normalization_69',
  'scale': True,
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 32
-Layer Name: add_3
+Layer Name: add_27
 Layer Type: Add
 Device: DPU
 Notes: 
     None
 Layer Config:
-{'dtype': 'float32', 'name': 'add_3', 'trainable': True}
+{'dtype': 'float32', 'name': 'add_27', 'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 33
-Layer Name: re_lu_8
+Layer Name: re_lu_59
 Layer Type: ReLU
 Device: DPU
 Notes: 
@@ -836,13 +838,13 @@ Notes:
 Layer Config:
 {'dtype': 'float32',
  'max_value': None,
- 'name': 're_lu_8',
+ 'name': 're_lu_59',
  'negative_slope': array(0., dtype=float32),
  'threshold': array(0., dtype=float32),
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 34
-Layer Name: conv2d_11
+Layer Name: conv2d_71
 Layer Type: Conv2D
 Device: DPU
 Notes: 
@@ -862,18 +864,18 @@ Layer Config:
  'kernel_initializer': {'class_name': 'HeNormal', 'config': {'seed': None}},
  'kernel_regularizer': None,
  'kernel_size': (3, 3),
- 'name': 'conv2d_11',
+ 'name': 'conv2d_71',
  'padding': 'same',
  'strides': (2, 2),
  'trainable': True,
  'use_bias': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 35
-Layer Name: batch_normalization_11
+Layer Name: batch_normalization_71
 Layer Type: BatchNormalization
 Device: DPU
 Notes: 
-    1. Folded into previous layer conv2d_11.
+    1. Folded into previous layer conv2d_71.
 Layer Config:
 {'axis': ListWrapper([3]),
  'beta_constraint': None,
@@ -888,12 +890,12 @@ Layer Config:
  'momentum': 0.99,
  'moving_mean_initializer': {'class_name': 'Zeros', 'config': {}},
  'moving_variance_initializer': {'class_name': 'Ones', 'config': {}},
- 'name': 'batch_normalization_11',
+ 'name': 'batch_normalization_71',
  'scale': True,
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 36
-Layer Name: re_lu_9
+Layer Name: re_lu_60
 Layer Type: ReLU
 Device: DPU
 Notes: 
@@ -901,13 +903,13 @@ Notes:
 Layer Config:
 {'dtype': 'float32',
  'max_value': None,
- 'name': 're_lu_9',
+ 'name': 're_lu_60',
  'negative_slope': array(0., dtype=float32),
  'threshold': array(0., dtype=float32),
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 37
-Layer Name: conv2d_12
+Layer Name: conv2d_72
 Layer Type: Conv2D
 Device: DPU
 Notes: 
@@ -927,14 +929,14 @@ Layer Config:
  'kernel_initializer': {'class_name': 'HeNormal', 'config': {'seed': None}},
  'kernel_regularizer': None,
  'kernel_size': (3, 3),
- 'name': 'conv2d_12',
+ 'name': 'conv2d_72',
  'padding': 'same',
  'strides': (1, 1),
  'trainable': True,
  'use_bias': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 38
-Layer Name: conv2d_10
+Layer Name: conv2d_70
 Layer Type: Conv2D
 Device: DPU
 Notes: 
@@ -954,18 +956,18 @@ Layer Config:
  'kernel_initializer': {'class_name': 'HeNormal', 'config': {'seed': None}},
  'kernel_regularizer': None,
  'kernel_size': (1, 1),
- 'name': 'conv2d_10',
+ 'name': 'conv2d_70',
  'padding': 'same',
  'strides': (2, 2),
  'trainable': True,
  'use_bias': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 39
-Layer Name: batch_normalization_12
+Layer Name: batch_normalization_72
 Layer Type: BatchNormalization
 Device: DPU
 Notes: 
-    1. Folded into previous layer conv2d_12.
+    1. Folded into previous layer conv2d_72.
 Layer Config:
 {'axis': ListWrapper([3]),
  'beta_constraint': None,
@@ -980,16 +982,16 @@ Layer Config:
  'momentum': 0.99,
  'moving_mean_initializer': {'class_name': 'Zeros', 'config': {}},
  'moving_variance_initializer': {'class_name': 'Ones', 'config': {}},
- 'name': 'batch_normalization_12',
+ 'name': 'batch_normalization_72',
  'scale': True,
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 40
-Layer Name: batch_normalization_10
+Layer Name: batch_normalization_70
 Layer Type: BatchNormalization
 Device: DPU
 Notes: 
-    1. Folded into previous layer conv2d_10.
+    1. Folded into previous layer conv2d_70.
 Layer Config:
 {'axis': ListWrapper([3]),
  'beta_constraint': None,
@@ -1004,21 +1006,21 @@ Layer Config:
  'momentum': 0.99,
  'moving_mean_initializer': {'class_name': 'Zeros', 'config': {}},
  'moving_variance_initializer': {'class_name': 'Ones', 'config': {}},
- 'name': 'batch_normalization_10',
+ 'name': 'batch_normalization_70',
  'scale': True,
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 41
-Layer Name: add_4
+Layer Name: add_28
 Layer Type: Add
 Device: DPU
 Notes: 
     None
 Layer Config:
-{'dtype': 'float32', 'name': 'add_4', 'trainable': True}
+{'dtype': 'float32', 'name': 'add_28', 'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 42
-Layer Name: re_lu_10
+Layer Name: re_lu_61
 Layer Type: ReLU
 Device: DPU
 Notes: 
@@ -1026,13 +1028,13 @@ Notes:
 Layer Config:
 {'dtype': 'float32',
  'max_value': None,
- 'name': 're_lu_10',
+ 'name': 're_lu_61',
  'negative_slope': array(0., dtype=float32),
  'threshold': array(0., dtype=float32),
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 43
-Layer Name: conv2d_13
+Layer Name: conv2d_73
 Layer Type: Conv2D
 Device: DPU
 Notes: 
@@ -1052,18 +1054,18 @@ Layer Config:
  'kernel_initializer': {'class_name': 'HeNormal', 'config': {'seed': None}},
  'kernel_regularizer': None,
  'kernel_size': (3, 3),
- 'name': 'conv2d_13',
+ 'name': 'conv2d_73',
  'padding': 'same',
  'strides': (1, 1),
  'trainable': True,
  'use_bias': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 44
-Layer Name: batch_normalization_13
+Layer Name: batch_normalization_73
 Layer Type: BatchNormalization
 Device: DPU
 Notes: 
-    1. Folded into previous layer conv2d_13.
+    1. Folded into previous layer conv2d_73.
 Layer Config:
 {'axis': ListWrapper([3]),
  'beta_constraint': None,
@@ -1078,12 +1080,12 @@ Layer Config:
  'momentum': 0.99,
  'moving_mean_initializer': {'class_name': 'Zeros', 'config': {}},
  'moving_variance_initializer': {'class_name': 'Ones', 'config': {}},
- 'name': 'batch_normalization_13',
+ 'name': 'batch_normalization_73',
  'scale': True,
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 45
-Layer Name: re_lu_11
+Layer Name: re_lu_62
 Layer Type: ReLU
 Device: DPU
 Notes: 
@@ -1091,13 +1093,13 @@ Notes:
 Layer Config:
 {'dtype': 'float32',
  'max_value': None,
- 'name': 're_lu_11',
+ 'name': 're_lu_62',
  'negative_slope': array(0., dtype=float32),
  'threshold': array(0., dtype=float32),
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 46
-Layer Name: conv2d_14
+Layer Name: conv2d_74
 Layer Type: Conv2D
 Device: DPU
 Notes: 
@@ -1117,18 +1119,18 @@ Layer Config:
  'kernel_initializer': {'class_name': 'HeNormal', 'config': {'seed': None}},
  'kernel_regularizer': None,
  'kernel_size': (3, 3),
- 'name': 'conv2d_14',
+ 'name': 'conv2d_74',
  'padding': 'same',
  'strides': (1, 1),
  'trainable': True,
  'use_bias': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 47
-Layer Name: batch_normalization_14
+Layer Name: batch_normalization_74
 Layer Type: BatchNormalization
 Device: DPU
 Notes: 
-    1. Folded into previous layer conv2d_14.
+    1. Folded into previous layer conv2d_74.
 Layer Config:
 {'axis': ListWrapper([3]),
  'beta_constraint': None,
@@ -1143,21 +1145,21 @@ Layer Config:
  'momentum': 0.99,
  'moving_mean_initializer': {'class_name': 'Zeros', 'config': {}},
  'moving_variance_initializer': {'class_name': 'Ones', 'config': {}},
- 'name': 'batch_normalization_14',
+ 'name': 'batch_normalization_74',
  'scale': True,
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 48
-Layer Name: add_5
+Layer Name: add_29
 Layer Type: Add
 Device: DPU
 Notes: 
     None
 Layer Config:
-{'dtype': 'float32', 'name': 'add_5', 'trainable': True}
+{'dtype': 'float32', 'name': 'add_29', 'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 49
-Layer Name: re_lu_12
+Layer Name: re_lu_63
 Layer Type: ReLU
 Device: DPU
 Notes: 
@@ -1165,13 +1167,13 @@ Notes:
 Layer Config:
 {'dtype': 'float32',
  'max_value': None,
- 'name': 're_lu_12',
+ 'name': 're_lu_63',
  'negative_slope': array(0., dtype=float32),
  'threshold': array(0., dtype=float32),
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 50
-Layer Name: conv2d_16
+Layer Name: conv2d_76
 Layer Type: Conv2D
 Device: DPU
 Notes: 
@@ -1191,18 +1193,18 @@ Layer Config:
  'kernel_initializer': {'class_name': 'HeNormal', 'config': {'seed': None}},
  'kernel_regularizer': None,
  'kernel_size': (3, 3),
- 'name': 'conv2d_16',
+ 'name': 'conv2d_76',
  'padding': 'same',
  'strides': (2, 2),
  'trainable': True,
  'use_bias': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 51
-Layer Name: batch_normalization_16
+Layer Name: batch_normalization_76
 Layer Type: BatchNormalization
 Device: DPU
 Notes: 
-    1. Folded into previous layer conv2d_16.
+    1. Folded into previous layer conv2d_76.
 Layer Config:
 {'axis': ListWrapper([3]),
  'beta_constraint': None,
@@ -1217,12 +1219,12 @@ Layer Config:
  'momentum': 0.99,
  'moving_mean_initializer': {'class_name': 'Zeros', 'config': {}},
  'moving_variance_initializer': {'class_name': 'Ones', 'config': {}},
- 'name': 'batch_normalization_16',
+ 'name': 'batch_normalization_76',
  'scale': True,
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 52
-Layer Name: re_lu_13
+Layer Name: re_lu_64
 Layer Type: ReLU
 Device: DPU
 Notes: 
@@ -1230,13 +1232,13 @@ Notes:
 Layer Config:
 {'dtype': 'float32',
  'max_value': None,
- 'name': 're_lu_13',
+ 'name': 're_lu_64',
  'negative_slope': array(0., dtype=float32),
  'threshold': array(0., dtype=float32),
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 53
-Layer Name: conv2d_17
+Layer Name: conv2d_77
 Layer Type: Conv2D
 Device: DPU
 Notes: 
@@ -1256,14 +1258,14 @@ Layer Config:
  'kernel_initializer': {'class_name': 'HeNormal', 'config': {'seed': None}},
  'kernel_regularizer': None,
  'kernel_size': (3, 3),
- 'name': 'conv2d_17',
+ 'name': 'conv2d_77',
  'padding': 'same',
  'strides': (1, 1),
  'trainable': True,
  'use_bias': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 54
-Layer Name: conv2d_15
+Layer Name: conv2d_75
 Layer Type: Conv2D
 Device: DPU
 Notes: 
@@ -1283,18 +1285,18 @@ Layer Config:
  'kernel_initializer': {'class_name': 'HeNormal', 'config': {'seed': None}},
  'kernel_regularizer': None,
  'kernel_size': (1, 1),
- 'name': 'conv2d_15',
+ 'name': 'conv2d_75',
  'padding': 'same',
  'strides': (2, 2),
  'trainable': True,
  'use_bias': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 55
-Layer Name: batch_normalization_17
+Layer Name: batch_normalization_77
 Layer Type: BatchNormalization
 Device: DPU
 Notes: 
-    1. Folded into previous layer conv2d_17.
+    1. Folded into previous layer conv2d_77.
 Layer Config:
 {'axis': ListWrapper([3]),
  'beta_constraint': None,
@@ -1309,16 +1311,16 @@ Layer Config:
  'momentum': 0.99,
  'moving_mean_initializer': {'class_name': 'Zeros', 'config': {}},
  'moving_variance_initializer': {'class_name': 'Ones', 'config': {}},
- 'name': 'batch_normalization_17',
+ 'name': 'batch_normalization_77',
  'scale': True,
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 56
-Layer Name: batch_normalization_15
+Layer Name: batch_normalization_75
 Layer Type: BatchNormalization
 Device: DPU
 Notes: 
-    1. Folded into previous layer conv2d_15.
+    1. Folded into previous layer conv2d_75.
 Layer Config:
 {'axis': ListWrapper([3]),
  'beta_constraint': None,
@@ -1333,21 +1335,21 @@ Layer Config:
  'momentum': 0.99,
  'moving_mean_initializer': {'class_name': 'Zeros', 'config': {}},
  'moving_variance_initializer': {'class_name': 'Ones', 'config': {}},
- 'name': 'batch_normalization_15',
+ 'name': 'batch_normalization_75',
  'scale': True,
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 57
-Layer Name: add_6
+Layer Name: add_30
 Layer Type: Add
 Device: DPU
 Notes: 
     None
 Layer Config:
-{'dtype': 'float32', 'name': 'add_6', 'trainable': True}
+{'dtype': 'float32', 'name': 'add_30', 'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 58
-Layer Name: re_lu_14
+Layer Name: re_lu_65
 Layer Type: ReLU
 Device: DPU
 Notes: 
@@ -1355,13 +1357,13 @@ Notes:
 Layer Config:
 {'dtype': 'float32',
  'max_value': None,
- 'name': 're_lu_14',
+ 'name': 're_lu_65',
  'negative_slope': array(0., dtype=float32),
  'threshold': array(0., dtype=float32),
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 59
-Layer Name: conv2d_18
+Layer Name: conv2d_78
 Layer Type: Conv2D
 Device: DPU
 Notes: 
@@ -1381,18 +1383,18 @@ Layer Config:
  'kernel_initializer': {'class_name': 'HeNormal', 'config': {'seed': None}},
  'kernel_regularizer': None,
  'kernel_size': (3, 3),
- 'name': 'conv2d_18',
+ 'name': 'conv2d_78',
  'padding': 'same',
  'strides': (1, 1),
  'trainable': True,
  'use_bias': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 60
-Layer Name: batch_normalization_18
+Layer Name: batch_normalization_78
 Layer Type: BatchNormalization
 Device: DPU
 Notes: 
-    1. Folded into previous layer conv2d_18.
+    1. Folded into previous layer conv2d_78.
 Layer Config:
 {'axis': ListWrapper([3]),
  'beta_constraint': None,
@@ -1407,12 +1409,12 @@ Layer Config:
  'momentum': 0.99,
  'moving_mean_initializer': {'class_name': 'Zeros', 'config': {}},
  'moving_variance_initializer': {'class_name': 'Ones', 'config': {}},
- 'name': 'batch_normalization_18',
+ 'name': 'batch_normalization_78',
  'scale': True,
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 61
-Layer Name: re_lu_15
+Layer Name: re_lu_66
 Layer Type: ReLU
 Device: DPU
 Notes: 
@@ -1420,13 +1422,13 @@ Notes:
 Layer Config:
 {'dtype': 'float32',
  'max_value': None,
- 'name': 're_lu_15',
+ 'name': 're_lu_66',
  'negative_slope': array(0., dtype=float32),
  'threshold': array(0., dtype=float32),
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 62
-Layer Name: conv2d_19
+Layer Name: conv2d_79
 Layer Type: Conv2D
 Device: DPU
 Notes: 
@@ -1446,18 +1448,18 @@ Layer Config:
  'kernel_initializer': {'class_name': 'HeNormal', 'config': {'seed': None}},
  'kernel_regularizer': None,
  'kernel_size': (3, 3),
- 'name': 'conv2d_19',
+ 'name': 'conv2d_79',
  'padding': 'same',
  'strides': (1, 1),
  'trainable': True,
  'use_bias': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 63
-Layer Name: batch_normalization_19
+Layer Name: batch_normalization_79
 Layer Type: BatchNormalization
 Device: DPU
 Notes: 
-    1. Folded into previous layer conv2d_19.
+    1. Folded into previous layer conv2d_79.
 Layer Config:
 {'axis': ListWrapper([3]),
  'beta_constraint': None,
@@ -1472,21 +1474,21 @@ Layer Config:
  'momentum': 0.99,
  'moving_mean_initializer': {'class_name': 'Zeros', 'config': {}},
  'moving_variance_initializer': {'class_name': 'Ones', 'config': {}},
- 'name': 'batch_normalization_19',
+ 'name': 'batch_normalization_79',
  'scale': True,
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 64
-Layer Name: add_7
+Layer Name: add_31
 Layer Type: Add
 Device: DPU
 Notes: 
     None
 Layer Config:
-{'dtype': 'float32', 'name': 'add_7', 'trainable': True}
+{'dtype': 'float32', 'name': 'add_31', 'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 65
-Layer Name: re_lu_16
+Layer Name: re_lu_67
 Layer Type: ReLU
 Device: DPU
 Notes: 
@@ -1494,26 +1496,40 @@ Notes:
 Layer Config:
 {'dtype': 'float32',
  'max_value': None,
- 'name': 're_lu_16',
+ 'name': 're_lu_67',
  'negative_slope': array(0., dtype=float32),
  'threshold': array(0., dtype=float32),
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 66
-Layer Name: global_average_pooling2d
-Layer Type: GlobalAveragePooling2D
+Layer Name: average_pooling2d_3
+Layer Type: AveragePooling2D
 Device: DPU
 Notes: 
-    1. Converted to VitisGlobalAveragePooling2D.
+    1. Converted to VitisAveragePooling2D.
 Layer Config:
 {'data_format': 'channels_last',
  'dtype': 'float32',
- 'keepdims': False,
- 'name': 'global_average_pooling2d',
+ 'name': 'average_pooling2d_3',
+ 'padding': 'valid',
+ 'pool_size': (4, 4),
+ 'strides': (4, 4),
  'trainable': True}
 ________________________________________________________________________________________________________________________
 Layer ID: 67
-Layer Name: dense
+Layer Name: flatten_3
+Layer Type: Flatten
+Device: DPU
+Notes: 
+    None
+Layer Config:
+{'data_format': 'channels_last',
+ 'dtype': 'float32',
+ 'name': 'flatten_3',
+ 'trainable': True}
+________________________________________________________________________________________________________________________
+Layer ID: 68
+Layer Name: dense_3
 Layer Type: Dense
 Device: DPU+CPU
 Notes: 
@@ -1530,7 +1546,7 @@ Layer Config:
  'kernel_initializer': {'class_name': 'GlorotUniform',
                         'config': {'seed': None}},
  'kernel_regularizer': None,
- 'name': 'dense',
+ 'name': 'dense_3',
  'trainable': True,
  'units': 10,
  'use_bias': True}

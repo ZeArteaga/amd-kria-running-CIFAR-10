@@ -2,7 +2,7 @@
     "lib": "libvart-dpu-runner.so",
     "filename": "final_model.xmodel",
     "kernel": [
-        "subgraph_quant_add"
+        "subgraph_quant_add_24"
     ],
     "target": "DPUCZDX8G_ISA1_B4096_0101000007010407"
 }
