@@ -122,7 +122,7 @@
 // | setting 4  : `define ALU_PARALLEL_8                
 // |------------------------------------------------------|
 
-`define ALU_PARALLEL_DEFAULT
+`define ALU_PARALLEL_4
 
 // +------------------------------------------------------+
 // | CONV RELU Type Configuration
