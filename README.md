@@ -1,5 +1,5 @@
 # amd-kria-running-CIFAR-10
-Made in the context of a group project for an **Embedded AI** course (University of Twente) - **Group 7**.
+Made in the context of a group project for an **Embedded AI** course (University of Twente) - **Group 7**. Installed docker container for Vitis-AI 3.5 as detailed in [Xilinx docs](https://xilinx.github.io/Vitis-AI/3.5/html/docs/install/install.html).
 
 # Instructions (fill-in completion)
 - [x] 1. Training a CNN to classify the CIFAR-10 dataset. The target test accuracy for this project is 90% or more.
